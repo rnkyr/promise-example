@@ -10,3 +10,5 @@ Promise<[Int]>.merge([p1, p2, p3])
     .result { print("_got \($0)") }
     .always { print("_always") }
 ```
+
+Refer to [feature/tests](https://github.com/rnkyr/promise-example/tree/feature/tests) branch for a complete, tested framework.
